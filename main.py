@@ -1,7 +1,7 @@
 import openai
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-openai.api_key ="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"
+openai.api_key ="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"
 
 def generate_gpt3_response(user_text, print_output=False):
     """
